@@ -5,6 +5,8 @@
 ## Program Goal
 Create a C++ program that manages 10 employee performance scores (0–100) using functions with **pass by value**, **pass by pointer**, and **pass by reference**.
 
+youtube/link
+
 ## Requirements
 
 - Hard-code a fixed-size array of 10 integer scores:
