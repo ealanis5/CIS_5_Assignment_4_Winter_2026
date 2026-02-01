@@ -5,7 +5,7 @@ using std::cout;
 using std::endl;
 using std::string;
 
-void addBonus(int scores[], int size, int bonus) {
+void addBonus(int scores[10], int size, int bonus) {
     for (int i = 0; i < size; ++i) {
         scores[i] += bonus;
         if (scores[i] > 105) {
@@ -20,7 +20,7 @@ cout << "Original Scores: 75, 88, 62, 95, 50, 82, 70, 91, 45, 78 " << endl;
 
 // Print sum of scores
 intCalculateSum:
-    int scores[] = {75, 88, 62, 95, 50, 82, 70, 91, 45, 78};
+    int scores[10] = {75, 88, 62, 95, 50, 82, 70, 91, 45, 78};
     int sum = 0;
     for (int score : scores) {
         sum += score;
